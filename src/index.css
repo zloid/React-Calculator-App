@@ -1,0 +1,248 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: #f4ecd7; 
+  
+
+  /* stop select any on page */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  font-size: 25px;
+}
+
+.middlePos {
+  /* vertical-align: middle; */
+  margin: 0 auto;
+  color: red;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.col {
+  background: goldenrod;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+
+textarea {
+  border-radius: 3px;
+  min-height: 300px;
+  max-width: 90px;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  /* background-color: yellow; */
+  /* padding: 50px; */
+  /* font-size: 20px; */
+}
+ 
+
+input, textarea, .someButton {
+  font-size: 20px;
+}
+
+/* button {
+  font-size: 17px;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.borderr {
+  /* border: 1px solid #a6bb00; */
+}
+
+.fellow {
+  color: red;
+}
+
+.dotted {
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid gold;
+  background: gold;
+}
+
+.plum {
+  border: 1px solid purple;
+}
+
+.blackBorder {
+  margin-top: 8px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+.black {
+  margin-top: 8px;
+  padding: 5px;
+  border: 2px solid seagreen;
+  border-radius: 3px;
+}
+
+.silver {
+  background: silver;
+  /* max-width: 50%; */
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.calcScreen {
+  background: #a6bb00;
+  padding: 5px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.someButton {
+  padding: 5px 10px;
+  /* font-size: 15px; */
+  min-width: 70px;
+  /* border: 0px; */
+  /* outline: 0; */
+  /* background: silver; */
+}
+
+/* .someButtonTwo {
+  width: 25%;
+  border: 1px solid silver;
+  float: left;
+} */
+
+.coverTwo {
+  background: #ececec;
+  padding: 10px;
+  margin: 10px;
+  max-width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 3px;  
+  /* font: Arial; */
+}
+
+
+.someDiv {
+  width: 300px;
+  border: 1px solid #000;
+  padding: 5px;
+  display: inline-block;
+}
+
+.someDiv button {
+  background-color: #fff;
+}
+
+.wrapperCalc {
+  max-width: 500px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  margin: 5px;
+}
+
+/*******************************************************************/
+/************************ SNAKE SNAKE SNAKE SNAKE*******************/
+/*******************************************************************
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  background: #1b1e23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root {
+  position: relative;
+  height: 330px;
+  width: 400px;
+  border: 1px solid #9e9a89;
+  background: #1b1e23;
+  border-radius: 5px;
+}
+.score {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  padding-top: 6px;
+  display: flex;
+  color: #f4eed7;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 30px;
+  width: calc(100% - 20px);
+  border-bottom: 1px solid #9e9a89;
+}
+.menu {
+  position: absolute;
+  top: calc(50% + 15px);
+  width: 100%;
+  text-align: center;
+  font-size: 0.75em;
+  color: #9e9a89;
+  transform: translateY(-50%);
+}
+.menu.hidden {
+  display: none;
+}
+.menu span {
+  color: #f4eed7;
+}
+.part {
+  background: #f4eed7;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  position: absolute;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.food {
+  width: 4px;
+  height: 4px;
+  border: 1px solid #f4eed7;
+  border-radius: 3px;
+  position: absolute;
+  transition: 0.05s;
+}
+@keyframes grow {
+  0% {
+    width: 0px;
+    height: 0px;
+  }
+  100% {
+    width: 4px;
+    height: 4px;
+  }
+}
+
+
+/*******************************************************************/
+/*******************************************************************/
+/*******************************************************************/
